@@ -1,0 +1,51 @@
+.heading_1{
+
+
+   
+width: 30%;
+padding: 20px;
+    line-height: 4;
+}
+
+body{
+
+
+
+    background-color: lightblue;
+}
+
+h1{
+
+    color: saddlebrown;
+    font-size: 33;
+}
+
+
+
+#camera{
+
+    
+    border: 2px dashed black;
+width:350px;
+height:300px;
+}
+
+#result{
+    border: 2px dashed black;
+    width:350px;
+    height:300px;
+    margin-right:50px;
+    float: right;
+}
+
+.la{
+    margin-right:10px;
+    float: right;
+}
+
+#snap{
+
+    float: right;
+    margin-right:50 ;
+}
+

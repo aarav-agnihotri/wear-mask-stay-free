@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Face recongnition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+   
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+<center>
+<div class="heading_1 btn btn-success">
+  <h1>WEAR MASK STAY SAFE</h1>
+</div>
+<br><br>   
+
+<h4> NOTE:TAKE YOUR PICTURE BEFORE YOU THE OFFICE </h3>
+
+
+<br><br><br>
+
+<p style="font-size: 22px;">Object : <span id="result_object_name"></span> </p>
+  
+<p style="font-size: 22px;">Accuracy :<span id="result_object_accuracy"></span>  </p>
+
+
+
+
+
+  
+  <div class="col-md-4 col-sm-12 col-xs-12">
+  <label>Webcame View - </label>
+  <div id="camera"></div>
+  <br><br>
+  <button onclick="take_snapshot();" class=" btn btn-warning"> Capture Image</button>
+  </div> 
+  
+</center>
+
+<div class="snap">
+ 
+  <label class="la">Snapshot - </label>
+  <br>
+<div id="result"></div>
+<br><br>
+
+
+    <button onclick="check();" class="btn btn-success ba">Predict mask</button>
+</div>
+    
+    <script src="main.js"></script>
+
+  </body>
+</html>
+
